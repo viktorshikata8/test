@@ -116,6 +116,7 @@ auto main() -> int {
     vector<lib::Big> big_structures(100);
     for(const auto& big_structure : big_structures)
         print_big(big_structure);
+    std::cout << "qwe" << endl;
     return 0;
 }
 
